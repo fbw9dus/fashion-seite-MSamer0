@@ -79,8 +79,10 @@ h2 {
 
 
 .menu > li {
-    display: inline;
+    display: block;
     text-align: center;
+    margin-top: 20px;
+    margin-right: 40px;
     
     
 }
@@ -103,9 +105,9 @@ a {
 }
 
 a:hover{
-    border-bottom: solid 15px white;
+    border-bottom: solid 20px black;
     transition: 0.3s;
-    color: blue;
+    color: red;
 }
 
 .container{
