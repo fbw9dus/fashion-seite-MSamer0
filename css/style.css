@@ -8,10 +8,55 @@ body {
     
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background: rgb(5, 5, 5);
+    color: white;
+    
+    
+}
+header nav{
+    margin: 0px;
+}
+
+header .first{
+    
+    padding-top: 10px;
+    float: left;
+    height: 70px;
+}
+header .first h1{
+    line-height: 0em;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    padding: 10px;
+    font-family:  theblodfont;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+header .first h2{
+    margin: 0;
+    padding-left: 90px;
+    font-family: 'Lexend Zetta', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
 nav {
+    height: 100px;
+    width: 100%;
     background: black;
     color: white;
+    
 }
+
+nav h1 h2{
+    float: left;
+} 
 
 nav .menu {
     margin: 0px;
@@ -113,4 +158,5 @@ img {
     height: 40px;
     float: right;
     padding-right: 15px;
+    margin-top: 20px;
 } 
